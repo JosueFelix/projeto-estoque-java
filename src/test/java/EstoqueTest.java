@@ -1,14 +1,11 @@
-// NENHUMA linha 'package' aqui
 
-// Importações do JUnit (Estas estão corretas)
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import org.junit.Before;
 import org.junit.Test;
 import java.util.List;
 
-// APAGUE as linhas 'import main.java.Estoque;' e 'import main.java.Produto;'
-// Elas estavam erradas e são a CAUSA do erro.
+
 
 public class EstoqueTest {
 

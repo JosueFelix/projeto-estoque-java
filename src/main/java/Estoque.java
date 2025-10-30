@@ -10,10 +10,7 @@ public class Estoque {
     private Map<String, Integer> indicePorNome = new HashMap<>();
     private int proximoId = 1;
 
-    // (Cole o resto do seu código de Estoque.java aqui...)
-    // (O 'cadastrarProduto', 'listarProdutos', e 'adicionarEstoque')
-    // ...
-    // --- US #1 ---
+
     public Produto cadastrarProduto(String nome, String descricao, int quantidadeInicial) {
         if (indicePorNome.containsKey(nome.toLowerCase())) {
             throw new IllegalArgumentException("Erro: Produto com este nome já cadastrado.");
