@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4159e96-757a-4cc4-9c72-c031730a9c89" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/Estoque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main/java/Produto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/EstoqueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/java/EstoqueTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/EstoqueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Estoque.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EstoqueTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Produto.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/java/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Estoque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/main/java/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/java/EstoqueTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +47,7 @@
     &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/3-adicionar-estoque&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -57,6 +63,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,7 +97,10 @@
       <workItem from="1761848332822" duration="2098000" />
       <workItem from="1761850495440" duration="1099000" />
       <workItem from="1761851615956" duration="544000" />
-      <workItem from="1761852177216" duration="763000" />
+      <workItem from="1761852177216" duration="1274000" />
+      <workItem from="1761853491766" duration="504000" />
+      <workItem from="1761854012885" duration="657000" />
+      <workItem from="1761854688774" duration="984000" />
     </task>
     <servers />
   </component>

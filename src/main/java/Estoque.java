@@ -1,4 +1,4 @@
-package main.java;
+
 
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +10,10 @@ public class Estoque {
     private Map<String, Integer> indicePorNome = new HashMap<>();
     private int proximoId = 1;
 
-    // --- US #1
+    // (Cole o resto do seu código de Estoque.java aqui...)
+    // (O 'cadastrarProduto', 'listarProdutos', e 'adicionarEstoque')
+    // ...
+    // --- US #1 ---
     public Produto cadastrarProduto(String nome, String descricao, int quantidadeInicial) {
         if (indicePorNome.containsKey(nome.toLowerCase())) {
             throw new IllegalArgumentException("Erro: Produto com este nome já cadastrado.");
@@ -25,12 +28,21 @@ public class Estoque {
         return novoProduto;
     }
 
-    // --- US #2 (NOVA ATUALIZAÇÃO) ---
-    /**
-     * User Story #2: Listar todos os produtos
-     */
+    // --- US #2 ---
     public List<Produto> listarProdutos() {
-        // [cite: 46]
         return new ArrayList<>(produtos.values());
+    }
+
+    // --- US #3 ---
+    public Produto adicionarEstoque(int id, int quantidadeAdicionar) {
+        Produto produto = produtos.get(id);
+        if (produto == null) {
+            throw new IllegalArgumentException("Erro: Produto com ID " + id + " não encontrado.");
+        }
+        if (quantidadeAdicionar <= 0) {
+            throw new IllegalArgumentException("Erro: Quantidade a adicionar deve ser positiva.");
+        }
+        produto.setQuantidade(produto.getQuantidade() + quantidadeAdicionar);
+        return produto;
     }
 }

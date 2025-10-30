@@ -1,3 +1,5 @@
+
+
 public class Produto {
     private int id;
     private String nome;
@@ -13,12 +15,8 @@ public class Produto {
 
     public int getId() { return id; }
     public String getNome() { return nome; }
-    public String getDescricao() { return descricao; }
     public int getQuantidade() { return quantidade; }
-
-    public void setQuantidade(int quantidade) {
-        this.quantidade = quantidade;
-    }
+    public void setQuantidade(int quantidade) { this.quantidade = quantidade; }
 
     @Override
     public String toString() {
